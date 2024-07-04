@@ -1,6 +1,6 @@
 import React from "react";
-import Footer from "../../components/footer/footer.jsx";
-import Header from "../../components/header/header.jsx";
+import Footer from "../../components/footer/footer";
+import Header from "../../components/header/header";
 import './sigin.css'
 import Link from 'next/link';
 export const metadata = {
