@@ -74,10 +74,10 @@ const Page = () => {
       </svg>
     </button>
   </div>
-  <p className="signup">
-    Don't have an account? 
+  <p className="signup"> ` Don t have an account ? `
+    
     <a rel="noopener noreferrer" href="../register" className="">
-        ` Sign up `
+         Sign up
     </a>
   </p>
 </div>
