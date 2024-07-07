@@ -76,7 +76,7 @@ const Page = () => {
     </button>
   </div>
   <p className="signup">
-    Don't have an account?
+    Dont have an account?
     <a rel="noopener noreferrer" href="../signin" className="">
     ` Sign up `
     </a>
