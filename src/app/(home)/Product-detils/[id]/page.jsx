@@ -1,7 +1,7 @@
 import React from "react";
 import "./Product-detils.css";
-import Footer from "/Users/karimakl/Documents/Front_End/E-Commerce-With-Next/src/components/footer/footer";
-import Header from '/Users/karimakl/Documents/Front_End/E-Commerce-With-Next/src/components/header/header';
+import Footer from "../../../../components/footer/footer";
+import Header from '../../../../components/header/header';
 
 
 async function getData(id) {
