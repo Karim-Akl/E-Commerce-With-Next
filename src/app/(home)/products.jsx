@@ -44,7 +44,9 @@ const Products = async () => {
     <section className="products flex">
           {data.map((item) => {
             return (
-              <article title={item.title} key={item.productImg} className="card">
+              <article title={item.title} key={item.productImg} className="card" style={{
+
+              }}>
                 <Link href={`/Product-detils/${item.id}`}>
                   <img   className='imgpro'  src={item.image} alt=""  />
                 </Link>

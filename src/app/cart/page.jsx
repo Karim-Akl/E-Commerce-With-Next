@@ -1,8 +1,8 @@
 import React from "react";
 import "./cart.css";
 
-import Footer from "/Users/karimakl/Downloads/ecommerce-with-next/src/components/footer/footer.jsx";
-import Header from "/Users/karimakl/Downloads/ecommerce-with-next/src/components/header/header.jsx";
+import Footer from "../../components/footer/footer";
+import Header from "../../components/header/header";
 
 export const metadata = {
   title: "Signin page",
@@ -96,7 +96,7 @@ const Page = () => {
           <button className="checkout">
             CHECKOUT
           </button>
-          <a href="./signin.html"> Please Sign in to continue. </a>
+          <a href="../signin"> Please Sign in to continue. </a>
         </section>
       </main>
       </div>

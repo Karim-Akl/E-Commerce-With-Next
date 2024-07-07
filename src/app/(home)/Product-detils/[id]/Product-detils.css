@@ -43,6 +43,8 @@ main.flex {
     font-size: 1.22rem;
     font-weight: bold;
     color: var(--red-button);
+    transform: translateY(-25px);
+
   }
 
   & .product-details {
@@ -85,3 +87,4 @@ main.flex {
     }
   }
 }
+

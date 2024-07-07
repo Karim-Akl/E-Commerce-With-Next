@@ -1,4 +1,5 @@
 .imgpro{
+
   width: 260px;
   height: 240px;
   background-repeat: no-repeat;
@@ -22,6 +23,11 @@
 .card{
   height: 400px;
   background-color: white;
+
+
+}
+.card img{
+  padding: 5px;
 }
 @media (max-width: 768px){
 .True{

@@ -30,12 +30,14 @@ const Page = async({ params }) => {
     >
       <Header/>
 
-      <main style={{ textAlign: "center" }} className="flex">
+      <main style={{ textAlign: "center",
+        padding:'30px'
+
+       }} className="flex">
         <img alt="" src={`${obgdata.image}`} />
         <div className="product-details">
           <div style={{ justifyContent: "space-between" }} className="flex">
             <h2>{obgdata.title} </h2>
-            <p className="price">{obgdata.price}</p>
           </div>
           <p className="description">
             {obgdata.description}
@@ -43,7 +45,10 @@ const Page = async({ params }) => {
           <button className="flex add-to-cart">
             <i className="fa-solid fa-cart-plus" />
             Add To Cart
+
           </button>
+          <p className="price" >{obgdata.price} </p>
+
         </div>
       </main>
       <Footer/>
@@ -53,3 +58,32 @@ const Page = async({ params }) => {
 };
 
 export default Page;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
